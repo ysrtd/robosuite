@@ -15,6 +15,10 @@
   </actuator>
 
   <worldbody>
+    <!-- Origin Marker -->
+    <site name="xaxis" pos="1 0 0" size="1 0.005 0.005" rgba="1 0 0 1" type="box" group="1"/>
+    <site name="yaxis" pos="0 1 0" size="0.005 1 0.005" rgba="0 1 0 1" type="box" group="1"/>
+    <site name="zaxis" pos="0 0 1" size="0.005 0.005 1" rgba="0 0 1 1" type="box" group="1"/>
   </worldbody>
 
   <equality>

@@ -17,6 +17,12 @@
             <geom pos="0 0 0." quat="0.707107 0 0 0.707107" type="mesh" contype="0" conaffinity="0" group="1" mesh="hand_vis" name="hand_visual" rgba="1 1 1 1" />
             <geom pos="0 0 0." quat="0.707107 0 0 0.707107" type="mesh" mesh="hand"  group="0" name="hand_collision"/>
             <!-- This site was added for visualization. -->
+            <body name="grip_site_customized" pos="0 0 0.097" quat="0.707107 0 0 0.707107">
+                <site name="grip_site_origin" pos="0 0 0" size="0.01 0.01 0.01" rgba="1 0 0 0.5" type="sphere" group="1"/>
+                <site name="grip_site_xaxis" pos="0.05 0 0" size="0.05 0.005 0.005" rgba="1 0 0 0.5" type="box" group="1"/>
+                <site name="grip_site_yaxis" pos="0 0.05 0" size="0.005 0.05 0.005" rgba="0 1 0 0.5" type="box" group="1"/>
+                <site name="grip_site_zaxis" pos="0 0 0.05" size="0.005 0.005 0.05" rgba="0 0 1 0.5" type="box" group="1"/>
+            </body>
             <body name="eef" pos="0 0 0.097" quat="1 0 0 0">
                 <site name="grip_site" pos="0 0 0" size="0.01 0.01 0.01" rgba="1 0 0 0.5" type="sphere" group="1"/>
                 <site name="ee_x" pos="0.1 0 0" size="0.005 .1"  quat="0.707105  0 0.707108 0 " rgba="1 0 0 0" type="cylinder" group="1"/>
