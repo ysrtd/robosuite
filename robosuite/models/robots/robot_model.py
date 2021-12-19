@@ -129,7 +129,6 @@ class RobotModel(MujocoXMLModel, metaclass=RobotModelMeta):
 
         # First adjust mount's base position
         offset = self.base_offset - mount.top_offset
-
         mount._elements["root_body"].set("pos", array_to_string(offset))
 
         self.merge(mount, merge_body=self.root_body)
