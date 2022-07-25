@@ -14,7 +14,7 @@ class Virtual(ManipulatorModel):
     def __init__(self, idn=0):
         super().__init__(xml_path_completion("robots/virtual/robot.xml"), idn=idn)
         # Set joint damping
-        self.set_joint_attribute(attrib="damping", values=np.array((0.1, 0.1, 0.1, 0.1, 0.1, 0.01)))
+        self.set_joint_attribute(attrib="damping", values=np.array((0.1, 0.1, 0.1, 0.1, 0.1, 0.1)))
 
     @property
     def default_mount(self):
@@ -30,7 +30,7 @@ class Virtual(ManipulatorModel):
 
     @property
     def init_qpos(self):
-        return np.array([0, np.pi / 16.0, 0.00, -np.pi / 2.0 - np.pi / 3.0, 0.00, np.pi - 0.2])
+        return np.array([0.45, 0., 0.4, 0., np.pi, np.pi/2])
 
     @property
     def base_xpos_offset(self):
