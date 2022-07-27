@@ -4,9 +4,9 @@
         <motor ctrllimited="true" ctrlrange="-10.0 10.0" joint="slide_joint0" name="torq_j1"/>
         <motor ctrllimited="true" ctrlrange="-10.0 10.0" joint="slide_joint1" name="torq_j2"/>
         <motor ctrllimited="true" ctrlrange="-10.0 10.0" joint="slide_joint2" name="torq_j3"/>
-        <motor ctrllimited="true" ctrlrange="-180.0 180.0" joint="hinge_joint0" name="torq_j4"/>
-        <motor ctrllimited="true" ctrlrange="-180.0 180.0" joint="hinge_joint1" name="torq_j5"/>
-        <motor ctrllimited="true" ctrlrange="-180.0 180.0" joint="hinge_joint2" name="torq_j6"/>
+        <motor ctrllimited="true" ctrlrange="-10.0 10.0" joint="hinge_joint0" name="torq_j4"/>
+        <motor ctrllimited="true" ctrlrange="-10.0 10.0" joint="hinge_joint1" name="torq_j5"/>
+        <motor ctrllimited="true" ctrlrange="-10.0 10.0" joint="hinge_joint2" name="torq_j6"/>
 
         <!-- <motor ctrllimited="true" ctrlrange="-80.0 80.0" joint="joint2" name="torq_j2"/>
         <motor ctrllimited="true" ctrlrange="-80.0 80.0" joint="joint3" name="torq_j3"/>
