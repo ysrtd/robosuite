@@ -217,7 +217,7 @@ class SingleArm(Manipulator):
 
         # IDs of sites for eef visualization
         self.eef_site_id = self.sim.model.site_name2id(self.gripper.important_sites["grip_site"])
-        self.eef_cylinder_id = self.sim.model.site_name2id(self.gripper.important_sites["grip_cylinder"])
+        # self.eef_cylinder_id = self.sim.model.site_name2id(self.gripper.important_sites["grip_cylinder"])
 
     def control(self, action, policy_step=False):
         """
